@@ -50,18 +50,37 @@ Chapter 1 - The lantern and the key
 
 [A device can be switched on or off. Here we make 'switched on' also mean 'gives off light'.]
 
-The brass lantern is a device in the Potting Shed. "An old brass lantern hangs from a nail on the tidy shelf." The description of the brass lantern is "A sturdy brass lantern with a little crank on the side. It is [if switched on]glowing warmly[otherwise]dark[end if]."
+The brass lantern is a device in the Potting Shed. "An old brass lantern hangs from a nail on the tidy shelf." The description of the brass lantern is "A sturdy brass lantern with a little crank on the side. It is [if switched on]glowing warmly[otherwise]dark[end if]." 
+
+A little crank is part of the brass lantern.
+Instead of turning the little crank, toggle the brass lantern.
+
+To toggle the brass lantern:
+	say "You gingerly spin the little crank around. The lantern [no line break]";
+	if the lantern is switched off:
+		say "sparks to life.";
+		now the lantern is switched on;
+		now the lantern is lit;
+	otherwise:
+		say "briefly flickers, then fades away.";
+		now the lantern is switched off;
+		now the lantern is not lit.
 
 [The Standard Rules normally add 'The brass lantern is currently switched on' when you examine a device. Our description already says so, so we switch that rule off for the lantern.]
 
 The examine devices rule does nothing when examining the brass lantern.
 
-Carry out switching on the brass lantern: now the brass lantern is lit.
-Carry out switching off the brass lantern: now the brass lantern is not lit.
+Instead of switching on the brass lantern, toggle the brass lantern.
+Instead of switching off the brass lantern, toggle the brass lantern.
 
 [LIGHT is already a synonym for BURN, so we redirect burning the lantern rather than adding new grammar.]
 
-Instead of burning the brass lantern, try switching on the brass lantern.
+Check burning the brass lantern:
+	if the lantern is not lit:
+		toggle the brass lantern;
+		stop the action;
+	otherwise:
+		say "The lantern is already lit." instead.
 
 Understand "lamp" and "light" as the brass lantern.
 
