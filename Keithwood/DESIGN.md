@@ -63,6 +63,8 @@ The gravel strip along the road is its own location, north of the front yard, ev
 
 Not in the game yet.
 
+**Layout:** a fence runs around the back yard, with a gate in it right next to the southwest corner of the house. The back door into the house is also at the southwest corner, on the south side of the house. Those two are the entry points to the back yard.
+
 **Then:** "There used to be a very large, low, spreading tree (maybe a crabapple?) in the exact center of the back yard. As a kid I would have to duck and push aside branches to get to the trunk, and could basically step into it almost like a nest."
 
 Crabapple stays a possible species for both trees: this one and the front yard's climbing tree.
