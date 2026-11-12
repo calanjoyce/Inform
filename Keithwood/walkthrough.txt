@@ -37,7 +37,7 @@ A front yard, then and now
 Release 1 / Serial number 261112 / Inform 7 v10.1.2
 
 Front Yard
-The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and the driveway slopes down to it from the road, for the garage sits a little below the level of the yard. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
+The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
 
 >x mailbox
 A mailbox on a post, right beside the driveway on its eastern side. Its little flag is down. It is closed.
@@ -131,7 +131,7 @@ Your mom's green station wagon is parked here, right on its tracks.
 >south
 
 Front Yard
-The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and the driveway slopes down to it from the road, for the garage sits a little below the level of the yard. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
+The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
 
 Down by the road, your mom's green station wagon is parked on the gravel strip.
 
@@ -158,7 +158,7 @@ Time passes.
 
 >look
 Front Yard
-The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and the driveway slopes down to it from the road, for the garage sits a little below the level of the yard. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
+The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
 
 >hint
 Things that are gone have left traces in the yard: marks in the gravel, a hole at the west end of the gravel strip, marks on the driveway, a rise in the lawn. LOOK CLOSELY AT a trace, or TOUCH or SEARCH it, to bring back what made it.
