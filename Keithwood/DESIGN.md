@@ -132,3 +132,6 @@ The Under the Big Tree, Driveway, Front Patio and West Side Yard descriptions ar
 - How does the player move between now and then: by remembering, by objects, or by the story?
 - What is the game's goal or ending?
 - Which locations close to the house come next, and when does the player go inside?
+- What does the current mailbox by the driveway look like (color, shape, post)? It's in the Street View photos, but the game only gives it a little red flag so far.
+- Is the big spreading tree in the center of the back yard still there? The game assumes it's gone, leaving a hollow in open lawn.
+- If the mailboxes pass messages between times, who writes back from then, and what do they say?
