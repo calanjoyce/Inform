@@ -8,6 +8,7 @@ An Inform 7 game set in my childhood home on Keithwood Drive, explored in great 
 
 - Built in 1957: a split-level of red brick and cream siding, three bedrooms, two full baths, about 1,600 sq ft, a full basement, on a little over half an acre (public records).
 - The only photos online are two Street View captures of the front, from 2023 and 2025, so current colors and plantings may differ from my memories.
+- Behind the house it isn't woods: several more large trees stand along the back property line, and there are homes on all the surrounding lots.
 
 ## Memory mechanics
 
@@ -46,9 +47,31 @@ Corrections from memory:
 - **Gravel strip along the road:** where one of our cars was usually parked, almost always my mom's car. Could be a green Dodge station wagon with wood paneling; a tan Dodge Caravan minivan; a silver Honda Fit.
 - **Driveway leading to the garage:** where my dad's cars would be. Could be a tan Volkswagen Rabbit with big rust spots on the side panels; a blue (or maybe green) Honda Accord hatchback.
 
+**The mailbox:** it stands right next to the eastern edge of the driveway now. It used to be at the western edge of the gravel strip, so it's another memory shift (see Gravel Strip).
+
 **Examinable:** the house, garage door, picture window, front door, shutters, chimney, walk, driveway, weeping shrub, the two big trees, the lawn, the gravel strip along the road.
 
 Other details seen in Street View that could be added: a coach light beside the garage, a storm door on the front door, a row of round shrubs edging the driveway, foundation shrubs along the house, and power lines overhead.
+
+### Gravel Strip
+
+The gravel strip along the road is its own location, north of the front yard, even though it's narrow. My mom's car was almost always parked here (the car list is under Front Yard).
+
+**Now:** tire tracks in the gravel.
+
+**The mailbox:** every interactive game needs a mailbox outside the starting house. This one used to stand at the western edge of the gravel strip; now it's right next to the eastern edge of the driveway. In the demo, a small square post hole at the strip's west end (a placeholder trace) brings back the old mailbox where it stood.
+
+### Back Yard
+
+Not in the game yet.
+
+**Layout:** a fence runs around the back yard, with a gate in it right next to the southwest corner of the house. The back door into the house is also at the southwest corner, on the south side of the house. Those two are the entry points to the back yard.
+
+**Then:** "There used to be a very large, low, spreading tree (maybe a crabapple?) in the exact center of the back yard. As a kid I would have to duck and push aside branches to get to the trunk, and could basically step into it almost like a nest."
+
+Crabapple stays a possible species for both trees: this one and the front yard's climbing tree.
+
+**Now:** several more large trees along the back property line, with homes on all the surrounding lots.
 
 ## Open questions
 

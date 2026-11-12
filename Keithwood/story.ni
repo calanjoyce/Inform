@@ -9,7 +9,7 @@ The release number is 1.
 The story creation year is 2026.
 
 When play begins:
-	say "You haven't stood in this yard in years. The house looks smaller than you remember, and different: the colors, the plantings. But some things leave marks.[paragraph break][italic type](This is a short demo of one room. Things that are gone have left traces here. LOOK CLOSELY AT them, TOUCH them or SEARCH them, and see what comes back. Type HINT for help.)[roman type]".
+	say "You haven't stood in this yard in years. The house looks smaller than you remember, and different: the colors, the plantings. But some things leave marks.[paragraph break][italic type](This is a short demo of the front of the house. Things that are gone have left traces here. LOOK CLOSELY AT them, TOUCH them or SEARCH them, and see what comes back. Type HINT for help.)[roman type]".
 
 Part 1 - Then and now
 
@@ -38,7 +38,7 @@ A memory has a text called the plain name.
 
 [While a memory is gone, it is only "the car from the gravel strip" or "the old tree": its hazy forms show only once it is back.]
 
-Rule for printing the name of a memory (called the haze) when the haze is not in the location:
+Rule for printing the name of a memory (called the haze) when the haze is off-stage:
 	say "[plain name of the haze]".
 
 Rule for printing the name of a memory (called the haze):
@@ -72,11 +72,11 @@ The fading limit is a number that varies. The fading limit is 8.
 
 Every turn (this is the fading memories rule):
 	let fading be a list of memories;
-	repeat with haze running through memories in the location:
+	repeat with haze running through on-stage memories:
 		increase the idle time of haze by 1;
 		if the idle time of haze is greater than the fading limit, add haze to fading;
 	repeat with haze running through fading:
-		say "[departure of haze][paragraph break]";
+		if haze is in the location, say "[departure of haze][paragraph break]";
 		now haze is nowhere.
 
 [When everything that is gone is back at the same moment, the yard slips fully into the past.]
@@ -84,12 +84,12 @@ Every turn (this is the fading memories rule):
 Wholeness-seen is a truth state that varies.
 
 Every turn (this is the whole yard rule):
-	if every memory is in the location:
+	if every memory is on-stage:
 		if the current era is now:
 			now the current era is then;
 			if wholeness-seen is false:
 				now wholeness-seen is true;
-				say "For a moment, all of it is here at once: your mom's [gravel car] on the gravel, your dad's [driveway car] in the driveway, the [lost tree] by the shrub. The yard is the way it was, or close enough.[paragraph break]";
+				say "For a moment, all of it is here at once: your mom's [gravel car] on the gravel, your dad's [driveway car] in the driveway, the [lost tree] by the shrub, the mailbox back at the west end of the strip. The yard is the way it was, or close enough.[paragraph break]";
 			otherwise:
 				say "The yard is whole again, for a moment.[paragraph break]";
 	otherwise:
@@ -97,7 +97,7 @@ Every turn (this is the whole yard rule):
 
 Part 2 - The Front Yard
 
-The Front Yard is a room. "The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west, and a strip of gravel runs along the edge of the road.[if the gravel car is in the Front Yard][paragraph break]Your mom's [gravel car] is parked on the gravel strip.[end if][if the driveway car is in the Front Yard][paragraph break]Your dad's [driveway car] sits in the driveway, nosed down toward the garage.[end if][if the lost tree is in the Front Yard][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if][if the current era is then][paragraph break]For a moment, the yard is the way it was.[end if]"
+The Front Yard is a room. "The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.[if the gravel car is on-stage][paragraph break]Down by the road, your mom's [gravel car] is parked on the gravel strip.[end if][if the driveway car is in the Front Yard][paragraph break]Your dad's [driveway car] sits in the driveway, nosed down toward the garage.[end if][if the lost tree is in the Front Yard][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if][if the current era is then][paragraph break]For a moment, the yard is the way it was.[end if]"
 
 [Each time you LOOK, anything hazy shifts.]
 
@@ -105,9 +105,8 @@ Before looking:
 	repeat with haze running through memories in the location:
 		shift haze.
 
-[The rest of the house is for later rooms. For now, the yard is all there is.]
+[The rest of the house is for later rooms. For now, the front yard and the gravel strip are all there is.]
 
-Instead of going north in the Front Yard, say "Keithwood Drive runs past the bottom of the lawn. You're not ready to leave yet."
 Instead of going south in the Front Yard, say "The front door can wait. For now, there's the yard."
 Instead of going inside in the Front Yard, try going south.
 Instead of going outside in the Front Yard, try going north.
@@ -139,27 +138,34 @@ The big trees are plural-named scenery in the Front Yard. Understand "two" and "
 
 Instead of climbing the big trees, say "Their lowest branches are far above your head."
 
-The power lines are plural-named scenery in the Front Yard. Understand "wires" and "line" and "wire" as the power lines. The description of the power lines is "Power lines run overhead along the road."
+The power lines are a plural-named backdrop. They are in the Front Yard and the Gravel Strip. Understand "wires" and "line" and "wire" as the power lines. The description of the power lines is "Power lines run overhead along the road."
 
-The road is scenery in the Front Yard. Understand "street" and "keithwood" and "drive" as the road. The description of the road is "Keithwood Drive, running past the bottom of the lawn."
+The road is a backdrop. It is in the Front Yard and the Gravel Strip. Understand "street" and "keithwood" and "drive" as the road. The description of the road is "Keithwood Drive, running past the bottom of the lawn."
+
+The neighboring houses are a plural-named backdrop. They are in the Front Yard and the Gravel Strip. Understand "neighbor" and "neighbors" and "neighbour" and "neighbours" and "house" and "homes" and "lots" as the neighboring houses. The description of the neighboring houses is "Houses stand on the lots on every side. Behind this one, more big trees run along the back property line."
+
+Does the player mean doing something to the neighboring houses: it is unlikely.
 
 Chapter 2 - The places where things were
 
 The lawn is scenery in the Front Yard. Understand "grass" and "yard" as the lawn. The description of the lawn is "A big lawn, sloping gently up from the road to the house. A few feet north of the weeping shrub, it rises in a slight mound."
 
-The gravel strip is scenery in the Front Yard. Understand "gravel" and "pull-off" and "shoulder" as the gravel strip. The description of the gravel strip is "A strip of gravel along the edge of the road, wide enough for one car. Tire tracks are pressed into it."
+The distant gravel is privately-named scenery in the Front Yard. Understand "gravel" and "strip" and "gravel strip" and "pull-off" and "shoulder" as the distant gravel. The description of the distant gravel is "A strip of gravel runs along the road at the bottom of the lawn, just to the north."
+
+Instead of searching or touching the distant gravel, say "It's down by the road. You'd have to go north to get a closer look."
 
 The driveway is scenery in the Front Yard. Understand "gravel driveway" as the driveway. The description of the driveway is "A gravel driveway slopes down from the road to the garage door, which sits a little lower than the front patio. There are tire marks in it, darker where cars stood."
 
 [Looking closely at, searching or touching the surface a trace sits on finds the trace.]
 
-Instead of searching the gravel strip, try searching the gravel tracks.
+Instead of searching the roadside gravel, try searching the gravel tracks.
+Instead of touching the roadside gravel, try touching the gravel tracks.
 Instead of searching the driveway, try searching the driveway tracks.
 Instead of searching the lawn, try searching the mound.
 
 Chapter 3 - The traces
 
-The gravel tracks are a privately-named plural-named trace in the Front Yard. The printed name is "tire tracks in the gravel". Understand "tire" and "tracks" and "track" and "ruts" and "rut" and "marks" as the gravel tracks. Understand "tire/-- tracks/ruts/marks in/on the/-- gravel" and "gravel tracks/ruts" as the gravel tracks. The description of the gravel tracks is "[if the gravel car is in the location]The [gravel car] sits right on top of them.[otherwise]Two shallow ruts pressed into the gravel, the shape of tires that parked here for a long time. You'd have to look more closely to see more.[end if]"
+The gravel tracks are a privately-named plural-named trace in the Gravel Strip. The printed name is "tire tracks in the gravel". Understand "tire" and "tracks" and "track" and "ruts" and "rut" and "marks" as the gravel tracks. Understand "tire/-- tracks/ruts/marks in/on the/-- gravel" and "gravel tracks/ruts" as the gravel tracks. The description of the gravel tracks is "[if the gravel car is in the location]The [gravel car] sits right on top of them.[otherwise]Two shallow ruts pressed into the gravel, the shape of tires that parked here for a long time. You'd have to look more closely to see more.[end if]"
 
 The driveway tracks are a privately-named plural-named trace in the Front Yard. The printed name is "tire marks on the driveway". Understand "tire" and "tracks" and "track" and "marks" and "mark" and "stain" and "stains" and "oil" as the driveway tracks. Understand "tire/-- tracks/marks in/on the/-- driveway" and "driveway tracks/marks" as the driveway tracks. The description of the driveway tracks is "[if the driveway car is in the location]The [driveway car] sits right on top of them.[otherwise]Faint tire marks run down the driveway toward the garage, and a darker stain shows where an engine once dripped. You'd have to look more closely to see more.[end if]"
 
@@ -182,13 +188,43 @@ Instead of touching a trace (called the mark):
 Scrutinizing is an action applying to one visible thing. Understand "look closely at [something]" and "look carefully at [something]" and "look closer at [something]" and "look at [something] closely" and "look at [something] carefully" and "examine [something] closely" and "examine [something] carefully" and "study [something]" and "inspect [something]" and "scrutinize [something]" and "scrutinise [something]" and "peer at [something]" as scrutinizing.
 
 Check scrutinizing something which is not a trace:
-	if the noun is the gravel strip, try searching the gravel tracks instead;
+	if the noun is the roadside gravel, try searching the gravel tracks instead;
 	if the noun is the driveway, try searching the driveway tracks instead;
 	if the noun is the lawn, try searching the mound instead;
 	try examining the noun instead.
 
 Carry out scrutinizing:
 	try searching the noun.
+
+Chapter 4 - The gravel strip
+
+The Gravel Strip is north of the Front Yard. "A narrow strip of gravel runs between Keithwood Drive and the bottom of the lawn, just wide enough for one car. The lawn slopes up to the south toward the house.[if the old mailbox is in the Gravel Strip][paragraph break]At the west end of the strip, the old mailbox stands on its post, where it used to be.[end if][if the gravel car is in the Gravel Strip][paragraph break]Your mom's [gravel car] is parked here, right on its tracks.[end if][if the driveway car is on-stage][paragraph break]Up at the house, your dad's [driveway car] sits in the driveway.[end if][if the lost tree is on-stage][paragraph break]Up on the lawn, a [lost tree] stands a few feet north of the weeping shrub.[end if][if the current era is then][paragraph break]For a moment, the yard is the way it was.[end if]"
+
+The roadside gravel is privately-named scenery in the Gravel Strip. Understand "gravel" and "strip" and "gravel strip" and "pull-off" and "shoulder" as the roadside gravel. The description of the roadside gravel is "Gravel along the edge of the road, wide enough for one car. Tire tracks are pressed into it, and at the west end there's a small square hole in the ground, half grown over."
+
+The house view is privately-named scenery in the Gravel Strip. Understand "house" and "home" and "split-level" and "lawn" and "yard" and "grass" and "garage" and "driveway" as the house view. The description of the house view is "The lawn slopes up from here to the house: red brick and cream siding, with the garage wing on the left. You'd have to go south to see more."
+
+Instead of going north in the Gravel Strip, say "Keithwood Drive runs past the strip. You're not ready to leave yet."
+Instead of going inside in the Gravel Strip, try going south.
+Instead of going nowhere from the Gravel Strip, say "The strip runs along the road a little way, but everything you came for is here or up in the yard."
+
+Chapter 5 - The mailbox
+
+[The mailbox stands beside the driveway now. It used to stand at the west end of the gravel strip, and the hole its old post left behind is a trace.]
+
+The mailbox is a closed openable scenery container in the Front Yard. Understand "box" and "mail" as the mailbox. The description of the mailbox is "A mailbox on a post, right beside the driveway on its eastern side. Its little flag is down. It is [if open]open[otherwise]closed[end if]."
+
+The little flag is part of the mailbox. Understand "red" as the little flag. The description of the little flag is "A little flag on the side of the mailbox. It's down."
+
+Instead of pushing, pulling, turning or taking the little flag, say "You raise the little flag. There's nothing to send, so you put it down again."
+Understand "raise [something]" and "lower [something]" as pulling.
+
+After opening the mailbox for the first time:
+	say "You open the mailbox. You half expect something to be waiting inside for you, the way something always is in the stories. It's empty."
+
+The post hole is a trace in the Gravel Strip. The printed name is "small square hole at the west end of the strip". Understand "small" and "square" and "hole" and "west" and "end" and "post" and "dirt" as the post hole. The description of the post hole is "[if the old mailbox is in the location]The old mailbox's post stands right in it.[otherwise]A small square hole in the ground at the west end of the strip, half grown over with grass, the size a post would leave. You'd have to look more closely to see more.[end if]"
+
+The post hole evokes the old mailbox.
 
 Part 3 - What comes back
 
@@ -222,7 +258,7 @@ form name	form description
 
 Chapter 2 - The old tree
 
-[Nobody remembers what kind of tree it was, so it can be any of these. Only maple and birch come from the design notes; crabapple is a placeholder.]
+[Nobody remembers what kind of tree it was, so it can be any of these. Crabapple may also be the species of the big tree in the back yard; it stays an option for both.]
 
 The lost tree is a privately-named memory. The form table of the lost tree is the Table of Trees. Understand "tree" and "small" and "smaller" and "young" and "climbing" and "maple" and "birch" and "crabapple" and "branch" and "branches" and "trunk" and "bark" as the lost tree.
 
@@ -244,6 +280,22 @@ Instead of climbing the lost tree:
 	now the idle time of the lost tree is 0;
 	say "You reach for the lowest branch, and your stomach drops the way it did the day one broke under you. You let go."
 
+Chapter 2b - The old mailbox
+
+The old mailbox is a privately-named memory. The form table of the old mailbox is the Table of Old Mailboxes. Understand "old" and "mailbox" and "box" and "mail" and "post" as the old mailbox.
+
+The plain name of the old mailbox is "old mailbox".
+The arrival of the old mailbox is "The grass around the hole parts. A post rises out of it, and on top of the post a mailbox: right here at the west end of the gravel strip, where it used to be, not over by the driveway where it stands now."
+The departure of the old mailbox is "The old mailbox and its post sink back into the grass, and there's only the hole at the end of the strip."
+The recollection of the old mailbox is "The mailbox used to stand here, at the west end of the gravel strip. Now it stands over by the driveway."
+
+Table of Old Mailboxes
+form name	form description
+"old mailbox"	"The mailbox on its post at the west end of the gravel strip, where it used to stand."
+
+Does the player mean doing something to the old mailbox when the old mailbox is in the location: it is very likely.
+Does the player mean remembering the old mailbox when the player is in the Gravel Strip: it is very likely.
+
 Chapter 3 - Looking at a memory
 
 [Every look shifts a hazy memory to another of its forms, and keeps it from fading.]
@@ -251,7 +303,10 @@ Chapter 3 - Looking at a memory
 Instead of examining a memory (called the haze):
 	shift the haze;
 	now the idle time of the haze is 0;
-	say "[form description in row (form of the haze) of (form table of the haze)][if the previous form of the haze is greater than 0] Wasn't it a [form name in row (previous form of the haze) of (form table of the haze)] a moment ago?[end if]".
+	if the previous form of the haze is greater than 0:
+		say "[form description in row (form of the haze) of (form table of the haze)] Wasn't it a [form name in row (previous form of the haze) of (form table of the haze)] a moment ago?";
+	otherwise:
+		say "[form description in row (form of the haze) of (form table of the haze)][line break]".
 
 Instead of scrutinizing a memory, try examining the noun.
 Instead of searching a memory, try examining the noun.
@@ -278,10 +333,14 @@ Carry out remembering:
 		if the noun is in the location:
 			now the idle time of the noun is 0;
 			say "[recollection of the noun][line break]";
+		otherwise if the noun is on-stage:
+			say "You'd have to go closer.";
 		otherwise:
 			say "It's there at the edge of things, but it won't come on its own. Something in the yard might bring it back.";
-	otherwise if the noun is the gravel strip:
+	otherwise if the noun is the roadside gravel:
 		recall the gravel tracks;
+	otherwise if the noun is the distant gravel:
+		say "It's down by the road. You'd have to go north to get a closer look.";
 	otherwise if the noun is the driveway:
 		recall the driveway tracks;
 	otherwise if the noun is the lawn:
@@ -292,21 +351,33 @@ Carry out remembering:
 Remembering vaguely is an action applying to nothing. Understand "remember" and "recall" as remembering vaguely.
 
 Carry out remembering vaguely:
-	say "The yard is full of things that aren't here anymore. Some of them left marks: in the gravel, on the driveway, in the lawn."
+	say "The yard is full of things that aren't here anymore. Some of them left marks: in the gravel, on the driveway, in the lawn, at the end of the gravel strip."
 
 Part 5 - Help and polish
 
 Asking for a hint is an action out of world applying to nothing. Understand "hint" and "hints" and "help" and "about" as asking for a hint.
 
 Carry out asking for a hint:
-	say "Things that are gone have left traces in the yard: marks in the gravel, marks on the driveway, a rise in the lawn. LOOK CLOSELY AT a trace, or TOUCH or SEARCH it, to bring back what made it.[paragraph break]What comes back is hazy. Look at it more than once and it may not be what it was. REMEMBER something to hear what it meant to you. Memories fade if you leave them alone for a while."
+	say "Things that are gone have left traces in the yard: marks in the gravel, a hole at the west end of the gravel strip, marks on the driveway, a rise in the lawn. LOOK CLOSELY AT a trace, or TOUCH or SEARCH it, to bring back what made it.[paragraph break]What comes back is hazy. Look at it more than once and it may not be what it was. REMEMBER something to hear what it meant to you. Memories fade if you leave them alone for a while."
 
 [If the player asks for something that's gone, say so, rather than 'You can't see any such thing.']
 
 Rule for printing a parser error when the latest parser error is the can't see any such thing error and the player's command includes "car/cars/wagon/minivan/van/rabbit/accord/fit/volkswagen/honda/dodge/caravan/hatchback":
-	say "There's no car here now. There are only the marks where cars used to park."
+	if the gravel car is on-stage or the driveway car is on-stage:
+		say "You'd have to go closer to see it properly.";
+	otherwise:
+		say "There's no car here now. There are only the marks where cars used to park."
 
 Rule for printing a parser error when the latest parser error is the can't see any such thing error and the player's command includes "maple/birch/crabapple/trunk/branch/branches/bark":
-	say "There's no such tree here now. Only a slight rise in the lawn, a few feet north of the weeping shrub."
+	if the lost tree is on-stage:
+		say "You'd have to go closer to see it properly.";
+	otherwise:
+		say "There's no such tree here now. Only a slight rise in the lawn, a few feet north of the weeping shrub."
 
-Test me with "look / x gravel / x tire tracks in the gravel / look closely at gravel / x car / x car / remember car / touch mound / x maple / x birch / climb tree / remember tree / search driveway / x dad's car / x dad's car / look / take car / touch car / wait / wait / wait / wait / wait / wait / wait / look".
+Rule for printing a parser error when the latest parser error is the can't see any such thing error and the player's command includes "tree/trees" and the lost tree is on-stage:
+	say "You'd have to go closer to see it properly."
+
+Rule for printing a parser error when the latest parser error is the can't see any such thing error and the player's command includes "mailbox/box/flag/post" and the player is in the Gravel Strip:
+	say "The mailbox isn't down here anymore. It stands up by the driveway now, though the west end of the strip still remembers where it used to be."
+
+Test me with "x mailbox / open mailbox / look in mailbox / raise flag / x neighbors / x gravel / north / look / x gravel / x tire tracks in the gravel / look closely at gravel / x car / x car / remember car / x mailbox / x hole / touch hole / x old mailbox / x mailbox / open old mailbox / remember mailbox / south / x mailbox / touch mound / x maple / x birch / climb tree / remember tree / search driveway / x dad's car / x dad's car / look / take car / touch car / wait / wait / wait / wait / wait / wait / wait / look".
