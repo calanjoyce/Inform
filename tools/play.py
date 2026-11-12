@@ -21,7 +21,7 @@ import fcntl, os, pty, re, select, shutil, struct, subprocess, sys, tempfile, te
 APP = "/Applications/Inform.app/Contents"
 NI, I6 = APP + "/MacOS/ni", APP + "/MacOS/inform6"
 INTERNAL = APP + "/Resources/Internal"
-ROWS, COLS = 200, 120
+ROWS, COLS = 5000, 120  # tall, so the screen never scrolls (scrolling garbles the captured text)
 
 
 def build(source, workdir):
@@ -31,8 +31,15 @@ def build(source, workdir):
     ni = subprocess.run([NI, "-internal", INTERNAL, "-project", project,
                          "-format=Inform6/32"], capture_output=True, text=True)
     if "Translation succeeded" not in ni.stdout + ni.stderr:
-        sys.exit(ni.stdout[-3000:] + "\nInform 7 failed; see "
-                 + os.path.join(project, "Build", "Problems.html"))
+        problems = os.path.join(project, "Build", "Problems.html")
+        text = open(problems, encoding="utf-8", errors="replace").read() \
+            if os.path.exists(problems) else ni.stdout[-3000:]
+        text = re.sub(r"<script.*?</script>|<style.*?</style>", "", text, flags=re.S)
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = re.sub(r"&nbsp;", " ", text)
+        text = re.sub(r"[ \t]+", " ", text)
+        text = re.sub(r"\n\s*\n+", "\n", text)
+        sys.exit(text.strip() + "\n\nInform 7 failed.")
     build_dir = os.path.join(project, "Build")
     i6 = subprocess.run([I6, "-wG", "+include_path=" + INTERNAL + "/Inter",
                          "auto.inf", "output.ulx"], cwd=build_dir,
