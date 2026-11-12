@@ -1,23 +1,48 @@
-Keithwood: front yard demo walkthrough
-======================================
+Keithwood: walkthrough of the yards demo
+========================================
 
-There's no puzzle and no ending yet. The demo is two locations, the Front Yard
-and the Gravel Strip to its north, for trying out the time shift. Four things
-that are gone have left traces:
+There's no puzzle and no ending yet. The demo is the yards around the house,
+for trying out the time shift. North is Keithwood Drive.
 
-  - tire marks on the driveway                       -> your dad's car
-  - a slight mound in the lawn, north of the shrub   -> the old climbing tree
-  - tire tracks in the gravel strip (go north)       -> your mom's car
-  - a small square hole at the strip's west end      -> the mailbox where it
-                                                        used to stand
+                          Keithwood Drive
+     Under the    ----   Front Lawn   ----   Driveway
+     Big Tree           (you start)
+         |       \           |           /
+         |        `--- Front Patio ---'
+     West Side Yard     (front door)
+         |
+       (gate)
+         |
+     By the Back Door ------------------- Along the East Fence
+         |          \                   /    |
+     By the Swing --- Middle of the Yard     |
+         |          /                   \    |
+     Southwest Corner ------------------- By the Shed
 
-The mailbox today stands beside the driveway in the Front Yard. Open it.
+The Front Lawn covers everything from the gravel strip by the road up to the
+edge of the patio. The gate at the south end of the West Side Yard is the only
+way into the back yard. The front door, back door, garage and shed stay shut
+for now.
+
+Five things that are gone have left traces:
+
+  - tire tracks in the gravel strip (Front Lawn)      -> your mom's car
+  - a small square hole at the strip's west end       -> the mailbox where it
+                                                         used to stand
+  - a slight mound in the lawn, north of the shrub    -> the old climbing tree
+  - tire marks on the driveway (Driveway)             -> your dad's car
+  - a hollow in the middle of the back yard           -> the big, low,
+                                                         spreading tree
+
+The mailbox today stands beside the driveway. Open it.
 
 LOOK CLOSELY AT, TOUCH or SEARCH a trace (or the gravel, driveway or lawn) to
-bring back what made it. EXAMINE it more than once: the cars and the tree shift
-each look to another of the ways they might have been. REMEMBER a thing to hear
-what it meant. Leave it alone for eight turns and it fades. Bring all four back
-at once and the whole yard slips into the past for a moment.
+bring back what made it. EXAMINE it more than once: the cars and the trees
+shift each look to another of the ways they might have been. REMEMBER a thing
+to hear what it meant. Leave it alone for eight turns and it fades. From the
+next space over you can still see it. Bring all four front yard memories back
+at once and the yard slips into the past for a moment. In the back yard, you
+can step into the spreading tree, sit on the swing, and jump in the leaves.
 
 Which car or tree appears is random, so your own playthrough will differ from
 the sample below.
@@ -25,142 +50,123 @@ the sample below.
 Sample playthrough
 ------------------
 
-
-
-
-
 You haven't stood in this yard in years. The house looks smaller than you remember, and different: the colors, the plantings. But some things leave marks.
 
-(This is a short demo of the front of the house. Things that are gone have left traces here. LOOK CLOSELY AT them, TOUCH them or SEARCH them, and see what comes back. Type HINT for help.)
+(This is a short demo of the yards around the house. Things that are gone have left traces here. LOOK CLOSELY AT them, TOUCH them or SEARCH them, and see what comes back. Type HINT for help.)
 Keithwood
-A front yard, then and now
+A house and its yards, then and now by Alan Joyce
 Release 1 / Serial number 261112 / Inform 7 v10.1.2
 
-Front Yard
-The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
+Front Lawn
+You stand on the front lawn, which slopes gently up from a strip of gravel along Keithwood Drive toward the house, a split-level of red brick and cream siding. Ahead of you, to the south, a small concrete patio leads past a weeping shrub to the front door. To the east, the low brick wing holds the garage, and a gravel driveway slopes down to it from the road. To the west, one of two enormous old trees spreads its branches over the lawn.
 
->x mailbox
-A mailbox on a post, right beside the driveway on its eastern side. Its little flag is down. It is closed.
+>x gravel
+A strip of gravel along the edge of the road, wide enough for one car. Tire tracks are pressed into it, and at the west end there's a small square hole in the ground, half grown over.
 
->open mailbox
-You open the mailbox. You half expect something to be waiting inside for you, the way something always is in the stories. It's empty.
+>look closely at gravel
+You crouch for a closer look at the tire tracks in the gravel.
 
->x mound
-A slight rise in the lawn, a few feet north of the weeping shrub. The grass over it is a little greener than the rest. You'd have to look more closely to see more.
+The gravel crunches, though nobody has moved. When you look up, a car is parked on the strip along the road, right over its own tracks: your mom's green station wagon, the way it almost always was.
 
->look closely at mound
-You crouch for a closer look at the slight mound in the lawn.
+>x car
+A tan Dodge Caravan, boxy and practical, with its sliding door on the far side. Wasn't it a green station wagon a moment ago?
 
-The grass over the mound stirs. Then there's a trunk where there was only lawn, and branches spreading overhead: the crabapple tree that stood a few feet from the weeping shrub. The one you used to climb.
+>x car
+A long green Dodge station wagon, its sides trimmed in wood paneling, its nose pointed down the road. Wasn't it a tan minivan a moment ago?
+
+>remember car
+(the green station wagon)
+Your mom's car, out here on the gravel strip, almost always. Which car it was depends on the year, and the years have run together.
+
+>touch hole
+You crouch and lay your hand on the small square hole at the west end of the strip.
+
+The grass around the hole parts. A post rises out of it, and on top of the post a mailbox: right here at the west end of the gravel strip, where it used to be, not over by the driveway where it stands now.
+
+>touch mound
+You crouch and lay your hand on the slight mound in the lawn.
+
+The grass over the mound stirs. Then there's a trunk where there was only lawn, and branches spreading overhead: the maple tree that stood a few feet from the weeping shrub. The one you used to climb.
 
 >x tree
-(the crabapple tree)
-A slim birch, its white bark peeling in papery curls, its lower branches just within reach. Wasn't it a crabapple tree a moment ago?
-
->x tree
-(the birch tree)
-A crabapple, low and twisty, with branches that seem made for climbing. Wasn't it a birch tree a moment ago?
-
->remember tree
-(the crabapple tree)
-You climbed it once. A branch broke, and you fell. You remember the falling better than the tree.
+(the maple tree)
+A crabapple, low and twisty, with branches that seem made for climbing. Wasn't it a maple tree a moment ago?
 
 >climb tree
 (the crabapple tree)
 You reach for the lowest branch, and your stomach drops the way it did the day one broke under you. You let go.
 
+>east
+
+Driveway
+A gravel driveway slopes down from Keithwood Drive to the garage, whose white door sits a little lower than the front patio. Above the door, a wide picture window is set in the brick of the low wing, with a coach light beside it. Round shrubs edge the driveway, and a mailbox stands right beside it on its eastern side. Beyond, a fence closes off the side yard to the east. The lawn lies to the west, and the patio to the southwest.
+
+To the west, your mom's green station wagon is parked on the gravel strip by the road. To the west, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the west, the old mailbox stands at the west end of the gravel strip, where it used to be.
+
 >search driveway
 You crouch for a closer look at the tire marks on the driveway.
 
-Something catches the light at the bottom of the driveway. Your dad's tan Volkswagen Rabbit is parked down by the garage, as if it had never left.
+Something catches the light at the bottom of the driveway. Your dad's blue Honda Accord is parked down by the garage, as if it had never left.
 
->x dad's car
-A blue Honda Accord hatchback. Or was it green? It's blue now, anyway. Wasn't it a tan Volkswagen Rabbit a moment ago?
+For a moment, all of it is here at once: your mom's green station wagon on the gravel, your dad's blue Honda Accord in the driveway, the crabapple tree by the shrub, the mailbox back at the west end of the strip. The yard is the way it was, or close enough.
 
->x dad's car
+>x car
 A green Honda Accord hatchback. Or was it blue? It's green now, anyway. Wasn't it a blue Honda Accord a moment ago?
 
->north
+>southwest
 
-Gravel Strip
-A narrow strip of gravel runs between Keithwood Drive and the bottom of the lawn, just wide enough for one car. The lawn slopes up to the south toward the house.
+Front Patio
+A small concrete patio in front of the house, a step higher than the garage door. The front door waits behind its storm door, with the weeping shrub drooping beside the patio. Above, dark red shutters frame the upstairs windows of the two-story part of the house. The lawn slopes down to the north; the driveway is to the northeast, and the big tree to the northwest.
 
-Up at the house, your dad's green Honda Accord sits in the driveway.
+To the north, your mom's green station wagon is parked on the gravel strip by the road. To the northeast, your dad's green Honda Accord sits in the driveway. To the north, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the north, the old mailbox stands at the west end of the gravel strip, where it used to be.
 
-Up on the lawn, a crabapple tree stands a few feet north of the weeping shrub.
+For a moment, the yard is the way it was.
 
->x gravel
-Gravel along the edge of the road, wide enough for one car. Tire tracks are pressed into it, and at the west end there's a small square hole in the ground, half grown over.
+>northwest
 
->touch tracks in the gravel
-You crouch and lay your hand on the tire tracks in the gravel.
+Under the Big Tree
+One of the two enormous old trees stands here on the west side of the front lawn, its trunk too wide to get your arms around, its branches far over your head. The lawn runs east toward the patio and the driveway. To the south, the side yard runs down the west wall of the house, where the other big tree stands.
 
-The gravel crunches, though nobody has moved. When you look up, a car is parked on the strip along the road, right over its own tracks: your mom's green station wagon, the way it almost always was.
-
->x mom's car
-A small silver Honda Fit, tidy and upright, parked neatly on the gravel. Wasn't it a green station wagon a moment ago?
-
->x mom's car
-A tan Dodge Caravan, boxy and practical, with its sliding door on the far side. Wasn't it a silver Honda Fit a moment ago?
-
->remember mom's car
-Your mom's car, out here on the gravel strip, almost always. Which car it was depends on the year, and the years have run together.
-
->x mailbox
-The mailbox isn't down here anymore. It stands up by the driveway now, though the west end of the strip still remembers where it used to be.
-
->look closely at hole
-You crouch for a closer look at the small square hole at the west end of the strip.
-
-The grass around the hole parts. A post rises out of it, and on top of the post a mailbox: right here at the west end of the gravel strip, where it used to be, not over by the driveway where it stands now.
-
->x old mailbox
-The mailbox on its post at the west end of the gravel strip, where it used to stand.
-
->remember old mailbox
-The mailbox used to stand here, at the west end of the gravel strip. Now it stands over by the driveway.
-
->look
-Gravel Strip
-A narrow strip of gravel runs between Keithwood Drive and the bottom of the lawn, just wide enough for one car. The lawn slopes up to the south toward the house.
-
-At the west end of the strip, the old mailbox stands on its post, where it used to be.
-
-Your mom's green station wagon is parked here, right on its tracks.
+To the east, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the east, the old mailbox stands at the west end of the gravel strip, where it used to be.
 
 >south
 
-Front Yard
-The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
+West Side Yard
+A strip of side yard runs along the west wall of the house, where bushes grow close against the brick and the chimney climbs to the roof. Another enormous old tree stands here, the second of the pair. To the south, the back yard fence closes the side yard off, with a gate in it near the corner of the house. The other big tree is to the north.
 
-Down by the road, your mom's green station wagon is parked on the gravel strip.
+>south
 
->wait
-Time passes.
+(first opening the gate)
 
->wait
-Time passes.
+By the Back Door
+Just inside the gate, at the southwest corner of the house. The back door is here, on the south side of the house. The back yard opens out to the south and southeast, with a fence running all the way around it, and along the back of the house the yard runs east toward the far fence.
 
->wait
-Time passes.
+>south
 
->wait
-Time passes.
+By the Swing
+The west side of the back yard. A large tree stands here, and near it a standing bench swing, its frame planted in the grass. The middle of the yard lies to the east; the back door is to the north, and the corner of the yard to the south.
 
->wait
-Time passes.
+>east
 
->wait
-Time passes.
+Middle of the Yard
+The middle of the back yard, open lawn all around, except that right in the center the ground dips in a broad, shallow hollow where the grass grows thin. The swing is to the west, the back door to the northwest, the east fence to the east and the shed to the southeast.
 
->wait
-Time passes.
+>x hollow
+A broad, shallow dip right in the center of the yard, the grass thin over it, as if something wide once kept the sun off. You'd have to look more closely to see more.
 
->look
-Front Yard
-The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. A mailbox stands right beside the driveway on its eastern side. Two enormous old trees shade the lawn to the west, and down at the bottom of the lawn a strip of gravel runs along the road.
+>touch hollow
+You crouch and lay your hand on the hollow in the middle of the yard.
 
->hint
-Things that are gone have left traces in the yard: marks in the gravel, a hole at the west end of the gravel strip, marks on the driveway, a rise in the lawn. LOOK CLOSELY AT a trace, or TOUCH or SEARCH it, to bring back what made it.
+The thin grass in the hollow darkens with shade. Branches come down around you, low and wide, nearly brushing the lawn: the spreading tree that filled the middle of the yard.
 
-What comes back is hazy. Look at it more than once and it may not be what it was. REMEMBER something to hear what it meant to you. Memories fade if you leave them alone for a while.
+>x tree
+
+A very large, low crabapple, its branches spreading wide and dipping almost to the grass all around. Wasn't it a spreading tree a moment ago?
+
+>enter tree
+You duck, push the low branches aside and step in toward the trunk. Inside, the branches close around you like the walls of a nest, and the yard goes green and quiet.
+
+>remember tree
+(the crabapple tree)
+You had to duck and push the branches aside to get to the trunk. Then you could step right into it, like a nest.
+
