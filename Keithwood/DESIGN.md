@@ -20,7 +20,7 @@ An Inform 7 game set in my childhood home on Keithwood Drive, explored in great 
 
 - An era variable (now or then) that descriptions test with `[if era is then]...[otherwise]...[end if]`.
 - A "memory" text property on things, printed by the REMEMBER verb.
-- Present-day stand-ins for things that are gone (a dip in the lawn for the old tree), each carrying the memory of what used to be there.
+- Present-day stand-ins for things that are gone (a mound in the lawn for the old tree), each carrying the memory of what used to be there.
 - Hazy details as `[one of]maple[or]birch[or]...[at random]` in the printed name and description, with every candidate word listed in an Understand line so the player can refer to it by any of them. An optional switch could let the detail settle on one value once the memory firms up.
 
 ## Rooms
@@ -31,9 +31,13 @@ Draft from Street View, to correct from memory:
 
 > The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west.
 
+Corrections from memory:
+
+- The garage sits slightly sunken below the level of the yard, so the driveway slopes down from Keithwood Drive to it.
+
 **Then:** a smaller tree stood a few feet north of the shrub, long since cut down. You once climbed it and fell when a branch broke. Its species is hazy, so it shifts each time you look.
 
-**Now:** a shallow dip in the lawn marks where it stood.
+**Now:** a slight mound in the lawn marks where it stood.
 
 **The family cars:** the cars span the years, so they suit the hazy-memory idea: the car parked in each spot can shift among these each time you look.
 
