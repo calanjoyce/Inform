@@ -1,6 +1,6 @@
 Lantern Hill: winning walkthrough
-Played in glulxe on the compiled Lantern Hill.gblorb (Inform 7 v10.1.2), 12 Nov 2026.
-Commands typed by the player follow each > prompt.
+Played in glulxe on the compiled LanternHill.gblorb (release 2, Inform 7 v10.1.2), 12 Nov 2026.
+Commands typed by the player follow each > prompt. This route finds the library's secrets for the full 6 points; skipping the red book, grey volume and cabinet still wins with 4.
 
 Your aunt, the astronomer, left you three things in her will: her old observatory on Lantern Hill, a note reading "Watch for the comet tonight," and absolutely no instructions.
 
@@ -8,7 +8,7 @@ The comet passes at midnight. The telescope, you are told, has not worked in yea
 
 Lantern Hill
 A small Inform 7 demonstration by Claude
-Release 1 / Serial number 261112 / Inform 7 v10.1.2
+Release 2 / Serial number 261112 / Inform 7 v10.1.2
 
 Garden Path
 Gravel crunches underfoot as the path winds up Lantern Hill to the old observatory, its copper dome dark against the first stars. A crooked potting shed leans against the hedge to the west. The observatory door stands open to the north.
@@ -17,6 +17,7 @@ Gravel crunches underfoot as the path winds up Lantern Hill to the old observato
 Have you looked in the potting shed?
 
 >west
+
 Potting Shed
 Clay pots, tangled twine and the earthy smell of last summer's tomatoes. Someone has tidied a single shelf, as if expecting a visitor. The garden lies back east.
 
@@ -29,14 +30,17 @@ Taken.
 You switch the brass lantern on.
 
 >east
+
 Garden Path
 Gravel crunches underfoot as the path winds up Lantern Hill to the old observatory, its copper dome dark against the first stars. A crooked potting shed leans against the hedge to the west. The observatory door stands open to the north.
 
 >north
+
 Entrance Hall
 A tall, echoing hall papered with faded star maps. A spiral staircase climbs to a small iron door above, a narrow stair drops into the cellar, and an archway to the east opens on the library. The garden is back south.
 
 >down
+
 Cellar
 A low, damp cellar smelling of candle wax and old coal. Stone steps lead back up to the hall.
 
@@ -48,10 +52,12 @@ Taken.
 [Your score has just gone up by one point.]
 
 >up
+
 Entrance Hall
 A tall, echoing hall papered with faded star maps. A spiral staircase climbs to a small iron door above, a narrow stair drops into the cellar, and an archway to the east opens on the library. The garden is back south.
 
 >east
+
 Library
 Floor-to-ceiling shelves of almanacs and star atlases. A heavy reading desk sits beneath the window, and the hall lies back to the west.
 
@@ -59,13 +65,22 @@ On the reading desk are a velvet cloth and a notebook.
 
 A grey cat named Copernicus is curled up on the window seat.
 
->examine notebook
+On the shelves are a battered almanac, a slim manual, a little green book, a fat grey volume and a tall red book.
+
+>x notebook
 Your aunt's handwriting fills the last page:
 
 "Lens out for cleaning again. Key to the dome on its hook downstairs, where it always is. Mind the dark. And give Copernicus a scratch behind the ears, the old rascal."
 
 >pet cat
 You scratch Copernicus behind the ears. He purrs like a small engine.
+
+>read manual
+You turn to the most dog-eared chapter.
+
+Chapter Four: Of the Lens. The objective lens is the soul of the instrument. Between observations it should be removed and kept somewhere dry and dark, a desk drawer being ideal. A lens must never be cleaned with a sleeve, a handkerchief or, heaven forbid, the breath. Use only a square of soft velvet, and rub gently.
+
+Your aunt has underlined "velvet" twice and added: "C. sleeps on it if you let him."
 
 >open drawer
 You open the drawer, revealing a glass lens.
@@ -81,11 +96,67 @@ You buff the lens with the velvet cloth until it is as clear as a drop of water.
 
 [Your score has just gone up by one point.]
 
+>pull red book
+You hook a finger over the top of the red book's spine. It tilts towards you, stops with a heavy click, and comes no further.
+
+Somewhere behind the shelves a counterweight drops. With a groan of old hinges, a whole section of the bookcase swings inward, revealing a narrow stone stair spiralling down into the hill.
+
+On the window seat, Copernicus opens both eyes.
+
+[Your score has just gone up by one point.]
+
+>take grey volume
+Taken.
+
+>open volume
+You lift the heavy cover. There are no lectures inside: the pages have been cut away to leave a neat hollow, and nestled in it is a slim silver key. You take it.
+
+>down
+
+Laboratory
+A long vault cut into the rock of the hill. Lamps in green glass shades still burn along the workbenches, as if your aunt had only stepped out. A brass orrery ticks quietly on a stand, a chalkboard covered in sums fills one wall, and a glass-fronted cabinet stands at the far end. The stone stair leads back up.
+
+>unlock cabinet with silver key
+You unlock the glass-fronted cabinet.
+
+[Your score has just gone up by one point.]
+
+>open cabinet
+You open the glass-fronted cabinet.
+
+>take letter
+Taken.
+
+>read letter
+If you are reading this, you pulled the right book. I always meant to show you this room myself.
+
+Sixty-one years ago I sat on this hill with my own aunt and watched the Lantern Comet come up out of the east, and I promised I would see it again. I may not manage it. You will have to see it for both of us.
+
+The telescope will want its lens, and the lens will want a clean. Then look up.
+
+With love,
+your aunt
+
+Folded inside the letter is a pressed flower, long dried, the colour of starlight.
+
+>up
+
+Library
+Floor-to-ceiling shelves of almanacs and star atlases. A heavy reading desk sits beneath the window, and the hall lies back to the west. One section of shelving has swung inward on hidden hinges, and a narrow stone stair spirals down into the hill.
+
+On the reading desk is a notebook.
+
+A grey cat named Copernicus is curled up on the window seat.
+
+On the shelves are a battered almanac, a slim manual, a little green book and a tall red book.
+
 >west
+
 Entrance Hall
 A tall, echoing hall papered with faded star maps. A spiral staircase climbs to a small iron door above, a narrow stair drops into the cellar, and an archway to the east opens on the library. The garden is back south.
 
 >unlock door with key
+(the small brass key)
 You unlock the iron door.
 
 [Your score has just gone up by one point.]
@@ -94,6 +165,7 @@ You unlock the iron door.
 You open the iron door.
 
 >up
+
 Dome
 You stand beneath the great copper dome. A slot in the roof is open to the night, and through it a slice of starry sky. In the centre of the floor sits the telescope, long as a rowing boat and pointed hopefully upward. The iron door leads back down.
 
@@ -106,8 +178,9 @@ You put your eye to the eyepiece and turn the brass wheel.
 There it is. A blazing white head trailing a veil of blue fire across a field of stars, so close you could count the ripples in its tail. Somewhere below, Copernicus gives a single approving meow.
 
 
+
     *** You have seen the comet ***
 
-In that game you scored 4 out of a possible 4, in 21 turns.
 
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+In that game you scored 6 out of a possible 6, in 31 turns.
+
