@@ -1,0 +1,113 @@
+Lantern Hill: winning walkthrough
+Played in glulxe on the compiled Lantern Hill.gblorb (Inform 7 v10.1.2), 12 Nov 2026.
+Commands typed by the player follow each > prompt.
+
+Your aunt, the astronomer, left you three things in her will: her old observatory on Lantern Hill, a note reading "Watch for the comet tonight," and absolutely no instructions.
+
+The comet passes at midnight. The telescope, you are told, has not worked in years.
+
+Lantern Hill
+A small Inform 7 demonstration by Claude
+Release 1 / Serial number 261112 / Inform 7 v10.1.2
+
+Garden Path
+Gravel crunches underfoot as the path winds up Lantern Hill to the old observatory, its copper dome dark against the first stars. A crooked potting shed leans against the hedge to the west. The observatory door stands open to the north.
+
+>hint
+Have you looked in the potting shed?
+
+>west
+Potting Shed
+Clay pots, tangled twine and the earthy smell of last summer's tomatoes. Someone has tidied a single shelf, as if expecting a visitor. The garden lies back east.
+
+An old brass lantern hangs from a nail on the tidy shelf.
+
+>take lantern
+Taken.
+
+>turn on lantern
+You switch the brass lantern on.
+
+>east
+Garden Path
+Gravel crunches underfoot as the path winds up Lantern Hill to the old observatory, its copper dome dark against the first stars. A crooked potting shed leans against the hedge to the west. The observatory door stands open to the north.
+
+>north
+Entrance Hall
+A tall, echoing hall papered with faded star maps. A spiral staircase climbs to a small iron door above, a narrow stair drops into the cellar, and an archway to the east opens on the library. The garden is back south.
+
+>down
+Cellar
+A low, damp cellar smelling of candle wax and old coal. Stone steps lead back up to the hall.
+
+A small brass key hangs from a hook by the steps.
+
+>take key
+Taken.
+
+[Your score has just gone up by one point.]
+
+>up
+Entrance Hall
+A tall, echoing hall papered with faded star maps. A spiral staircase climbs to a small iron door above, a narrow stair drops into the cellar, and an archway to the east opens on the library. The garden is back south.
+
+>east
+Library
+Floor-to-ceiling shelves of almanacs and star atlases. A heavy reading desk sits beneath the window, and the hall lies back to the west.
+
+On the reading desk are a velvet cloth and a notebook.
+
+A grey cat named Copernicus is curled up on the window seat.
+
+>examine notebook
+Your aunt's handwriting fills the last page:
+
+"Lens out for cleaning again. Key to the dome on its hook downstairs, where it always is. Mind the dark. And give Copernicus a scratch behind the ears, the old rascal."
+
+>pet cat
+You scratch Copernicus behind the ears. He purrs like a small engine.
+
+>open drawer
+You open the drawer, revealing a glass lens.
+
+>take lens
+Taken.
+
+>take cloth
+Taken.
+
+>polish lens
+You buff the lens with the velvet cloth until it is as clear as a drop of water.
+
+[Your score has just gone up by one point.]
+
+>west
+Entrance Hall
+A tall, echoing hall papered with faded star maps. A spiral staircase climbs to a small iron door above, a narrow stair drops into the cellar, and an archway to the east opens on the library. The garden is back south.
+
+>unlock door with key
+You unlock the iron door.
+
+[Your score has just gone up by one point.]
+
+>open door
+You open the iron door.
+
+>up
+Dome
+You stand beneath the great copper dome. A slot in the roof is open to the night, and through it a slice of starry sky. In the centre of the floor sits the telescope, long as a rowing boat and pointed hopefully upward. The iron door leads back down.
+
+>put lens in telescope
+The lens clicks into the mount as if it had been waiting for you.
+
+>look through telescope
+You put your eye to the eyepiece and turn the brass wheel.
+
+There it is. A blazing white head trailing a veil of blue fire across a field of stars, so close you could count the ripples in its tail. Somewhere below, Copernicus gives a single approving meow.
+
+
+    *** You have seen the comet ***
+
+In that game you scored 4 out of a possible 4, in 21 turns.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
