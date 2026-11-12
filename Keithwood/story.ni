@@ -97,7 +97,7 @@ Every turn (this is the whole yard rule):
 
 Part 2 - The Front Yard
 
-The Front Yard is a room. "The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and the driveway runs up to it from the road. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west, and a strip of gravel runs along the edge of the road.[if the gravel car is in the Front Yard][paragraph break]Your mom's [gravel car] is parked on the gravel strip.[end if][if the driveway car is in the Front Yard][paragraph break]Your dad's [driveway car] sits in the driveway, nosed up toward the garage.[end if][if the lost tree is in the Front Yard][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if][if the current era is then][paragraph break]For a moment, the yard is the way it was.[end if]"
+The Front Yard is a room. "The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and the driveway slopes down to it from the road, for the garage sits a little below the level of the yard. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west, and a strip of gravel runs along the edge of the road.[if the gravel car is in the Front Yard][paragraph break]Your mom's [gravel car] is parked on the gravel strip.[end if][if the driveway car is in the Front Yard][paragraph break]Your dad's [driveway car] sits in the driveway, nosed down toward the garage.[end if][if the lost tree is in the Front Yard][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if][if the current era is then][paragraph break]For a moment, the yard is the way it was.[end if]"
 
 [Each time you LOOK, anything hazy shifts.]
 
@@ -117,7 +117,7 @@ Chapter 1 - The house
 
 The house is scenery in the Front Yard. Understand "split-level" and "split" and "level" and "home" and "brick" and "siding" and "cream" and "red" as the house. The description of the house is "A split-level of red brick and cream siding, built in 1957. The low wing on the left holds the garage; the taller part on the right has the front door below and two shuttered windows above."
 
-The garage is scenery in the Front Yard. Understand "garage door" and "door" and "wing" and "white" as the garage. The description of the garage is "The garage sits at the bottom of the low brick wing, its white door at the level of the driveway."
+The garage is scenery in the Front Yard. Understand "garage door" and "door" and "wing" and "white" as the garage. The description of the garage is "The garage sits at the bottom of the low brick wing, sunk a little below the level of the yard, its white door at the foot of the driveway."
 
 The picture window is scenery in the Front Yard. Understand "wide" and "panes" and "pane" as the picture window. The description of the picture window is "A wide window of three panes, set in the brick above the garage door."
 
@@ -149,7 +149,7 @@ The lawn is scenery in the Front Yard. Understand "grass" and "yard" as the lawn
 
 The gravel strip is scenery in the Front Yard. Understand "gravel" and "pull-off" and "shoulder" as the gravel strip. The description of the gravel strip is "A strip of gravel along the edge of the road, wide enough for one car. Tire tracks are pressed into it."
 
-The driveway is scenery in the Front Yard. The description of the driveway is "The driveway runs from the road up to the garage. There are tire marks on it, darker where cars stood."
+The driveway is scenery in the Front Yard. The description of the driveway is "The driveway slopes down from the road to the garage, which sits a little below the level of the yard. There are tire marks on it, darker where cars stood."
 
 [Looking closely at, searching or touching the surface a trace sits on finds the trace.]
 
@@ -161,7 +161,7 @@ Chapter 3 - The traces
 
 The gravel tracks are a privately-named plural-named trace in the Front Yard. The printed name is "tire tracks in the gravel". Understand "tire" and "tracks" and "track" and "ruts" and "rut" and "marks" as the gravel tracks. Understand "tire/-- tracks/ruts/marks in/on the/-- gravel" and "gravel tracks/ruts" as the gravel tracks. The description of the gravel tracks is "[if the gravel car is in the location]The [gravel car] sits right on top of them.[otherwise]Two shallow ruts pressed into the gravel, the shape of tires that parked here for a long time. You'd have to look more closely to see more.[end if]"
 
-The driveway tracks are a privately-named plural-named trace in the Front Yard. The printed name is "tire marks on the driveway". Understand "tire" and "tracks" and "track" and "marks" and "mark" and "stain" and "stains" and "oil" as the driveway tracks. Understand "tire/-- tracks/marks in/on the/-- driveway" and "driveway tracks/marks" as the driveway tracks. The description of the driveway tracks is "[if the driveway car is in the location]The [driveway car] sits right on top of them.[otherwise]Faint tire marks run up the driveway toward the garage, and a darker stain shows where an engine once dripped. You'd have to look more closely to see more.[end if]"
+The driveway tracks are a privately-named plural-named trace in the Front Yard. The printed name is "tire marks on the driveway". Understand "tire" and "tracks" and "track" and "marks" and "mark" and "stain" and "stains" and "oil" as the driveway tracks. Understand "tire/-- tracks/marks in/on the/-- driveway" and "driveway tracks/marks" as the driveway tracks. The description of the driveway tracks is "[if the driveway car is in the location]The [driveway car] sits right on top of them.[otherwise]Faint tire marks run down the driveway toward the garage, and a darker stain shows where an engine once dripped. You'd have to look more closely to see more.[end if]"
 
 The mound is a trace in the Front Yard. The printed name is "slight mound in the lawn". Understand "slight" and "rise" and "hump" and "bump" and "stump" as the mound. The description of the mound is "[if the lost tree is in the location]The [lost tree] grows right out of it.[otherwise]A slight rise in the lawn, a few feet north of the weeping shrub. The grass over it is a little greener than the rest. You'd have to look more closely to see more.[end if]"
 
@@ -210,9 +210,9 @@ form name	form description
 The driveway car is a privately-named memory. The form table of the driveway car is the Table of Dad's Cars. Understand "car" and "dad's" and "dads" and "dad" and "father's" and "father" and "volkswagen" and "vw" and "rabbit" and "rust" and "rusty" and "spots" and "honda" and "accord" and "hatchback" and "blue" and "green" and "tan" as the driveway car.
 
 The plain name of the driveway car is "car from the driveway".
-The arrival of the driveway car is "Something catches the light at the top of the driveway. Your dad's [driveway car] is pulled up toward the garage, as if it had never left."
+The arrival of the driveway car is "Something catches the light at the bottom of the driveway. Your dad's [driveway car] is parked down by the garage, as if it had never left."
 The departure of the driveway car is "The [driveway car] thins and is gone, and the driveway is just a driveway again."
-The recollection of the driveway car is "Your dad's car, up the driveway by the garage. There were a few over the years, and they won't stay sorted."
+The recollection of the driveway car is "Your dad's car, down the driveway by the garage. There were a few over the years, and they won't stay sorted."
 
 Table of Dad's Cars
 form name	form description

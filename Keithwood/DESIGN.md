@@ -31,6 +31,10 @@ Draft from Street View, to correct from memory:
 
 > The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west.
 
+Corrections from memory:
+
+- The garage sits slightly sunken below the level of the yard, so the driveway slopes down from Keithwood Drive to it.
+
 **Then:** a smaller tree stood a few feet north of the shrub, long since cut down. You once climbed it and fell when a branch broke. Its species is hazy, so it shifts each time you look.
 
 **Now:** a slight mound in the lawn marks where it stood.
