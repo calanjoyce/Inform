@@ -1,0 +1,8 @@
+# Inform 7 build output (regenerated on every compile)
+*.inform/Build/
+*.inform/Index/
+*.materials/Release/
+
+# OS clutter
+.DS_Store
+Thumbs.db
