@@ -87,7 +87,7 @@ Corrections from memory:
 - **Gravel strip along the road:** where one of our cars was usually parked, almost always my mom's car. Could be a green Dodge station wagon with wood paneling; a tan Dodge Caravan minivan; a silver Honda Fit.
 - **Driveway leading to the garage:** where my dad's cars would be. Could be a tan Volkswagen Rabbit with big rust spots on the side panels; a blue (or maybe green) Honda Accord hatchback.
 
-**The mailbox:** it stands right next to the eastern edge of the driveway now. It used to be at the western edge of the gravel strip, so it's another memory shift (see Gravel Strip).
+**The mailbox:** it stands right next to the eastern edge of the driveway now (it can be seen in the Street View photos). It used to be at the western edge of the gravel strip, and it was orange, so it's another memory shift (see Gravel Strip).
 
 **Examinable:** the house, garage door, picture window, front door, shutters, chimney, walk, driveway, weeping shrub, the two big trees, the lawn, the gravel strip along the road.
 
@@ -100,6 +100,12 @@ The gravel strip along the road is now part of the Front Lawn, the starting spac
 **Now:** tire tracks in the gravel.
 
 **The mailbox:** every interactive game needs a mailbox outside the starting house. This one used to stand at the western edge of the gravel strip; now it's right next to the eastern edge of the driveway. In the demo, a small square post hole at the strip's west end (a placeholder trace) brings back the old mailbox where it stood.
+
+**Idea: the two mailboxes as a link between times.** The old orange mailbox (then) and the current one by the driveway (now) could be a way to pass things between the two eras. Not built yet. Some possibilities:
+
+- **Messages:** put a note in one mailbox and find it, or a reply, in the other. Something left in the old mailbox might turn up, aged, in the new one; something mailed now might reach the past.
+- **Doors and flags as settings:** whether each mailbox's door is open or shut and its flag up or down could act like switches that set which year, or which version of a hazy memory, comes back.
+- These could combine: the flag says "something to send," the door decides which way it goes.
 
 ### Back Yard
 

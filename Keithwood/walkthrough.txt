@@ -81,7 +81,7 @@ Your mom's car, out here on the gravel strip, almost always. Which car it was de
 >touch hole
 You crouch and lay your hand on the small square hole at the west end of the strip.
 
-The grass around the hole parts. A post rises out of it, and on top of the post a mailbox: right here at the west end of the gravel strip, where it used to be, not over by the driveway where it stands now.
+The grass around the hole parts. A post rises out of it, and on top of the post an orange mailbox: right here at the west end of the gravel strip, where it used to be, not over by the driveway where it stands now.
 
 >touch mound
 You crouch and lay your hand on the slight mound in the lawn.
@@ -101,14 +101,14 @@ You reach for the lowest branch, and your stomach drops the way it did the day o
 Driveway
 A gravel driveway slopes down from Keithwood Drive to the garage, whose white door sits a little lower than the front patio. Above the door, a wide picture window is set in the brick of the low wing, with a coach light beside it. Round shrubs edge the driveway, and a mailbox stands right beside it on its eastern side. Beyond, a fence closes off the side yard to the east. The lawn lies to the west, and the patio to the southwest.
 
-To the west, your mom's green station wagon is parked on the gravel strip by the road. To the west, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the west, the old mailbox stands at the west end of the gravel strip, where it used to be.
+To the west, your mom's green station wagon is parked on the gravel strip by the road. To the west, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the west, the old orange mailbox stands at the west end of the gravel strip, where it used to be.
 
 >search driveway
 You crouch for a closer look at the tire marks on the driveway.
 
 Something catches the light at the bottom of the driveway. Your dad's blue Honda Accord is parked down by the garage, as if it had never left.
 
-For a moment, all of it is here at once: your mom's green station wagon on the gravel, your dad's blue Honda Accord in the driveway, the crabapple tree by the shrub, the mailbox back at the west end of the strip. The yard is the way it was, or close enough.
+For a moment, all of it is here at once: your mom's green station wagon on the gravel, your dad's blue Honda Accord in the driveway, the crabapple tree by the shrub, the orange mailbox back at the west end of the strip. The yard is the way it was, or close enough.
 
 >x car
 A green Honda Accord hatchback. Or was it blue? It's green now, anyway. Wasn't it a blue Honda Accord a moment ago?
@@ -118,7 +118,7 @@ A green Honda Accord hatchback. Or was it blue? It's green now, anyway. Wasn't i
 Front Patio
 A small concrete patio in front of the house, a step higher than the garage door. The front door waits behind its storm door, with the weeping shrub drooping beside the patio. Above, dark red shutters frame the upstairs windows of the two-story part of the house. The lawn slopes down to the north; the driveway is to the northeast, and the big tree to the northwest.
 
-To the north, your mom's green station wagon is parked on the gravel strip by the road. To the northeast, your dad's green Honda Accord sits in the driveway. To the north, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the north, the old mailbox stands at the west end of the gravel strip, where it used to be.
+To the north, your mom's green station wagon is parked on the gravel strip by the road. To the northeast, your dad's green Honda Accord sits in the driveway. To the north, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the north, the old orange mailbox stands at the west end of the gravel strip, where it used to be.
 
 For a moment, the yard is the way it was.
 
@@ -127,7 +127,7 @@ For a moment, the yard is the way it was.
 Under the Big Tree
 One of the two enormous old trees stands here on the west side of the front lawn, its trunk too wide to get your arms around, its branches far over your head. The lawn runs east toward the patio and the driveway. To the south, the side yard runs down the west wall of the house, where the other big tree stands.
 
-To the east, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the east, the old mailbox stands at the west end of the gravel strip, where it used to be.
+To the east, a crabapple tree stands on the lawn, a few feet north of the weeping shrub. To the east, the old orange mailbox stands at the west end of the gravel strip, where it used to be.
 
 >south
 

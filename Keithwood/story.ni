@@ -97,7 +97,7 @@ Every turn (this is the whole yard rule):
 			now the current era is then;
 			if wholeness-seen is false:
 				now wholeness-seen is true;
-				say "For a moment, all of it is here at once: your mom's [gravel car] on the gravel, your dad's [driveway car] in the driveway, the [lost tree] by the shrub, the mailbox back at the west end of the strip. The yard is the way it was, or close enough.[paragraph break]";
+				say "For a moment, all of it is here at once: your mom's [gravel car] on the gravel, your dad's [driveway car] in the driveway, the [lost tree] by the shrub, the orange mailbox back at the west end of the strip. The yard is the way it was, or close enough.[paragraph break]";
 			otherwise:
 				say "The yard is whole again, for a moment.[paragraph break]";
 	otherwise:
@@ -204,7 +204,7 @@ Chapter 2 - The Front Lawn
 
 [The starting space covers everything from the gravel strip along the road up to the edge of the patio.]
 
-The description of the Front Lawn is "You stand on the front lawn, which slopes gently up from a strip of gravel along Keithwood Drive toward the house, a split-level of red brick and cream siding. Ahead of you, to the south, a small concrete patio leads past a weeping shrub to the front door. To the east, the low brick wing holds the garage, and a gravel driveway slopes down to it from the road. To the west, one of two enormous old trees spreads its branches over the lawn.[if the gravel car is in the Front Lawn][paragraph break]Down by the road, your mom's [gravel car] is parked on the gravel strip.[end if][if the old mailbox is in the Front Lawn][paragraph break]At the west end of the strip, the old mailbox stands on its post, where it used to be.[end if][if the lost tree is in the Front Lawn][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if]"
+The description of the Front Lawn is "You stand on the front lawn, which slopes gently up from a strip of gravel along Keithwood Drive toward the house, a split-level of red brick and cream siding. Ahead of you, to the south, a small concrete patio leads past a weeping shrub to the front door. To the east, the low brick wing holds the garage, and a gravel driveway slopes down to it from the road. To the west, one of two enormous old trees spreads its branches over the lawn.[if the gravel car is in the Front Lawn][paragraph break]Down by the road, your mom's [gravel car] is parked on the gravel strip.[end if][if the old mailbox is in the Front Lawn][paragraph break]At the west end of the strip, the old orange mailbox stands on its post, where it used to be.[end if][if the lost tree is in the Front Lawn][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if]"
 
 The front grass is privately-named scenery in the Front Lawn. Understand "lawn" and "grass" and "yard" and "front" as the front grass. The description of the front grass is "A big lawn, sloping gently up from the road to the house. A few feet north of the weeping shrub, it rises in a slight mound."
 
@@ -429,17 +429,17 @@ Instead of climbing the lost tree:
 
 Chapter 3 - The old mailbox
 
-The old mailbox is a privately-named memory. The form table of the old mailbox is the Table of Old Mailboxes. Understand "old" and "mailbox" and "box" and "mail" and "post" as the old mailbox.
+The old mailbox is a privately-named memory. The form table of the old mailbox is the Table of Old Mailboxes. Understand "old" and "orange" and "mailbox" and "box" and "mail" and "post" as the old mailbox.
 
 The plain name of the old mailbox is "old mailbox".
-The far view of the old mailbox is "the old mailbox stands at the west end of the gravel strip, where it used to be".
-The arrival of the old mailbox is "The grass around the hole parts. A post rises out of it, and on top of the post a mailbox: right here at the west end of the gravel strip, where it used to be, not over by the driveway where it stands now."
-The departure of the old mailbox is "The old mailbox and its post sink back into the grass, and there's only the hole at the end of the strip."
-The recollection of the old mailbox is "The mailbox used to stand here, at the west end of the gravel strip. Now it stands over by the driveway."
+The far view of the old mailbox is "the old orange mailbox stands at the west end of the gravel strip, where it used to be".
+The arrival of the old mailbox is "The grass around the hole parts. A post rises out of it, and on top of the post an orange mailbox: right here at the west end of the gravel strip, where it used to be, not over by the driveway where it stands now."
+The departure of the old mailbox is "The orange mailbox and its post sink back into the grass, and there's only the hole at the end of the strip."
+The recollection of the old mailbox is "The orange mailbox used to stand here, at the west end of the gravel strip. Now a different one stands over by the driveway."
 
 Table of Old Mailboxes
 form name	form description
-"old mailbox"	"The mailbox on its post at the west end of the gravel strip, where it used to stand."
+"orange mailbox"	"An orange mailbox on its post at the west end of the gravel strip, where it used to stand."
 
 Does the player mean doing something to the old mailbox when the old mailbox is in the location: it is very likely.
 Does the player mean remembering the old mailbox when the player is in the Front Lawn: it is very likely.
