@@ -1,8 +1,8 @@
-# Childhood home game: design notes
+# Keithwood: design notes
 
 ## Premise
 
-An Inform 7 game set in my childhood home, explored in great detail. The core idea is layering the past on top of the present: the house as it is now, with memories surfacing through it.
+An Inform 7 game set in my childhood home on Keithwood Drive, explored in great detail. The core idea is layering the past on top of the present: the house as it is now, with memories surfacing through it.
 
 ## Setting facts
 
@@ -29,7 +29,7 @@ An Inform 7 game set in my childhood home, explored in great detail. The core id
 
 Draft from Street View, to correct from memory:
 
-> The lawn slopes gently up from the road toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west.
+> The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west.
 
 **Then:** a smaller tree stood a few feet north of the shrub, long since cut down. You once climbed it and fell when a branch broke. Its species is hazy, so it shifts each time you look.
 
