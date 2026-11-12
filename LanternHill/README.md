@@ -2,13 +2,15 @@
 
 A small Inform 7 game. Your late aunt, an astronomer, has left you her observatory on Lantern Hill and a note to watch for tonight's comet. The telescope hasn't worked in years, so you'll need to find a light, get into the dome and clean the telescope's lens before the comet passes.
 
-Six rooms, four points. A first game and a working example of Inform 7: light and darkness, a locked door, a simple puzzle chain, scoring, a few new verbs and an in-game HINT command.
+Seven rooms, six points. A first game and a working example of Inform 7: light and darkness, a locked door, a simple puzzle chain, scoring, a few new verbs and an in-game HINT command.
+
+The library has books you can examine and READ. Some of them have secrets: one is hollow, and one is not really a book at all. Finding them leads to a hidden laboratory and two bonus points. Four points are enough to win.
 
 ## Files
 
 - `story.ni`: the Inform 7 source, with comments explaining each part.
 - `LanternHill.gblorb`: the compiled game (Glulx, release build), made with Inform 7 v10.1.2.
-- `walkthrough.txt`: a full winning playthrough (4 of 4 points, 21 moves). Contains spoilers.
+- `walkthrough.txt`: a full winning playthrough (6 of 6 points, 31 moves). Contains spoilers.
 
 ## Playing it
 
@@ -25,6 +27,6 @@ Type `hint` if you get stuck.
 1. In the Inform app, create a new project called Lantern Hill.
 2. Replace its source text with the contents of `story.ni`.
 3. Press **Go** to compile and play in the app.
-4. Type `test me` at the first prompt to run the whole winning route automatically.
+4. Type `test me` at the first prompt to run the whole winning route automatically, or `test books` to try out the library books.
 
-`test me` only works in the app's testing builds, not in the released `.gblorb`.
+`test me` and `test books` only work in the app's testing builds, not in the released `.gblorb`.
