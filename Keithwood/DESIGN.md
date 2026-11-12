@@ -34,6 +34,8 @@ Draft from Street View, to correct from memory:
 Corrections from memory:
 
 - The garage sits slightly sunken below the level of the yard, so the driveway slopes down from Keithwood Drive to it.
+- The driveway is gravel.
+- A small concrete patio sits directly in front of you as you face the house, leading to the front door. The garage door is slightly lower than the patio.
 
 **Then:** a smaller tree stood a few feet north of the shrub, long since cut down. You once climbed it and fell when a branch broke. Its species is hazy, so it shifts each time you look.
 

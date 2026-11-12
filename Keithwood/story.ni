@@ -1,4 +1,4 @@
-"Keithwood"
+"Keithwood" by Alan Joyce
 
 [Inform 7 source is meant to read like English. Text in square brackets, like this, is a comment and is ignored by the compiler. Indented lines must use tabs.]
 
@@ -97,7 +97,7 @@ Every turn (this is the whole yard rule):
 
 Part 2 - The Front Yard
 
-The Front Yard is a room. "The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and the driveway slopes down to it from the road, for the garage sits a little below the level of the yard. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. A paved walk leads from the driveway past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west, and a strip of gravel runs along the edge of the road.[if the gravel car is in the Front Yard][paragraph break]Your mom's [gravel car] is parked on the gravel strip.[end if][if the driveway car is in the Front Yard][paragraph break]Your dad's [driveway car] sits in the driveway, nosed down toward the garage.[end if][if the lost tree is in the Front Yard][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if][if the current era is then][paragraph break]For a moment, the yard is the way it was.[end if]"
+The Front Yard is a room. "The lawn slopes gently up from Keithwood Drive toward the house, a split-level of red brick and cream siding. To your left, a low brick wing holds the garage, with a wide picture window set above its door, and a gravel driveway slopes down to it from the road, for the garage door sits a little lower than the front patio. To your right rises the two-story part of the house: dark red shutters frame the upstairs windows, and a brick chimney climbs the far end. Directly in front of you, a small concrete patio leads past a weeping shrub to the front door. Two enormous old trees shade the lawn to the west, and a strip of gravel runs along the edge of the road.[if the gravel car is in the Front Yard][paragraph break]Your mom's [gravel car] is parked on the gravel strip.[end if][if the driveway car is in the Front Yard][paragraph break]Your dad's [driveway car] sits in the driveway, nosed down toward the garage.[end if][if the lost tree is in the Front Yard][paragraph break]A smaller tree, a [lost tree], stands a few feet north of the weeping shrub.[end if][if the current era is then][paragraph break]For a moment, the yard is the way it was.[end if]"
 
 [Each time you LOOK, anything hazy shifts.]
 
@@ -117,11 +117,11 @@ Chapter 1 - The house
 
 The house is scenery in the Front Yard. Understand "split-level" and "split" and "level" and "home" and "brick" and "siding" and "cream" and "red" as the house. The description of the house is "A split-level of red brick and cream siding, built in 1957. The low wing on the left holds the garage; the taller part on the right has the front door below and two shuttered windows above."
 
-The garage is scenery in the Front Yard. Understand "garage door" and "door" and "wing" and "white" as the garage. The description of the garage is "The garage sits at the bottom of the low brick wing, sunk a little below the level of the yard, its white door at the foot of the driveway."
+The garage is scenery in the Front Yard. Understand "garage door" and "door" and "wing" and "white" as the garage. The description of the garage is "The garage sits at the bottom of the low brick wing, its white door at the foot of the gravel driveway, a little lower than the front patio."
 
 The picture window is scenery in the Front Yard. Understand "wide" and "panes" and "pane" as the picture window. The description of the picture window is "A wide window of three panes, set in the brick above the garage door."
 
-The front door is scenery in the Front Yard. Understand "storm door" and "storm" as the front door. The description of the front door is "The front door, behind a storm door, at the end of the paved walk."
+The front door is scenery in the Front Yard. Understand "storm door" and "storm" as the front door. The description of the front door is "The front door, behind a storm door, at the back of the small concrete patio."
 
 The shutters are plural-named scenery in the Front Yard. Understand "shutter" and "upstairs" and "windows" and "dark red" as the shutters. The description of the shutters is "Dark red shutters frame the two upstairs windows."
 
@@ -129,9 +129,9 @@ The chimney is scenery in the Front Yard. The description of the chimney is "A b
 
 The coach light is scenery in the Front Yard. Understand "lamp" and "lantern" as the coach light. The description of the coach light is "A coach light beside the garage door."
 
-The paved walk is scenery in the Front Yard. Understand "path" and "walkway" as the paved walk. The description of the paved walk is "A paved walk leads from the driveway along the front of the house to the door."
+The patio is scenery in the Front Yard. Understand "small" and "concrete" and "walk" and "path" and "walkway" and "step" as the patio. The description of the patio is "A small concrete patio directly in front of you, leading to the front door. It sits a little higher than the garage door."
 
-The weeping shrub is scenery in the Front Yard. Understand "bush" as the weeping shrub. The description of the weeping shrub is "A weeping shrub by the front walk, its branches drooping to the ground."
+The weeping shrub is scenery in the Front Yard. Understand "bush" as the weeping shrub. The description of the weeping shrub is "A weeping shrub beside the patio, its branches drooping to the ground."
 
 The round shrubs are plural-named scenery in the Front Yard. Understand "row" and "bushes" and "shrubs" and "foundation" as the round shrubs. The description of the round shrubs is "A row of round shrubs edges the driveway, and more shrubs line the foundation of the house."
 
@@ -149,7 +149,7 @@ The lawn is scenery in the Front Yard. Understand "grass" and "yard" as the lawn
 
 The gravel strip is scenery in the Front Yard. Understand "gravel" and "pull-off" and "shoulder" as the gravel strip. The description of the gravel strip is "A strip of gravel along the edge of the road, wide enough for one car. Tire tracks are pressed into it."
 
-The driveway is scenery in the Front Yard. The description of the driveway is "The driveway slopes down from the road to the garage, which sits a little below the level of the yard. There are tire marks on it, darker where cars stood."
+The driveway is scenery in the Front Yard. Understand "gravel driveway" as the driveway. The description of the driveway is "A gravel driveway slopes down from the road to the garage door, which sits a little lower than the front patio. There are tire marks in it, darker where cars stood."
 
 [Looking closely at, searching or touching the surface a trace sits on finds the trace.]
 
