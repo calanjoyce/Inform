@@ -4,7 +4,7 @@ An Inform 7 game in progress, set in the house I grew up in, layering memories o
 
 ## Front yard demo
 
-A one-room playable sketch for trying out the time shift. Things that are gone have left traces in the yard: tire tracks on the gravel strip and the driveway, and a slight mound in the lawn where the old tree stood. Look closely at a trace, touch it or search it, and what made it comes back. The cars and the tree are hazy, so each time you look they may shift to another of the ways they might have been. Left alone, they fade.
+A small playable sketch for trying out the time shift: the front yard and the gravel strip along the road. Things that are gone have left traces: tire tracks on the gravel strip and the driveway, a slight mound in the lawn where the old tree stood, and a post hole where the mailbox used to be. Look closely at a trace, touch it or search it, and what made it comes back. The cars and the tree are hazy, so each time you look they may shift to another of the ways they might have been. Left alone, they fade.
 
 ## Files
 
