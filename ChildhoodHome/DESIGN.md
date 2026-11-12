@@ -35,6 +35,11 @@ Draft from Street View, to correct from memory:
 
 **Now:** a shallow dip in the lawn marks where it stood.
 
+**The family cars:** the cars span the years, so they suit the hazy-memory idea: the car parked in each spot can shift among these each time you look.
+
+- **Gravel strip along the road:** where one of our cars was usually parked, almost always my mom's car. Could be a green Dodge station wagon with wood paneling; a tan Dodge Caravan minivan; a silver Honda Fit.
+- **Driveway leading to the garage:** where my dad's cars would be. Could be a tan Volkswagen Rabbit with big rust spots on the side panels; a blue (or maybe green) Honda Accord hatchback.
+
 **Examinable:** the house, garage door, picture window, front door, shutters, chimney, walk, driveway, weeping shrub, the two big trees, the lawn, the gravel strip along the road.
 
 Other details seen in Street View that could be added: a coach light beside the garage, a storm door on the front door, a row of round shrubs edging the driveway, foundation shrubs along the house, and power lines overhead.
